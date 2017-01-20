@@ -1,0 +1,42 @@
+header {
+	border: 1px dotted indigo;
+}
+
+nav a {
+	padding: 0 5px;
+}
+
+[class="disabled"] {
+	color: grey;
+}
+
+a [class="disabled"] {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.blue {
+	color: blue;
+}
+
+[class="red"] {
+	color: red;
+}
+
+.grandparent > h4 {
+	border: 1px solid maroon;
+	border-radius: .36em;
+	padding: 3px;
+}
+
+.promo {
+	color: gold;
+	font-weight: bold;
+}
+
+footer input {
+	font-size: 25px;
+}
